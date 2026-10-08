@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Profilio"
+description = "A student-first internship discovery platform where ambitious students build portfolios and companies find the right talent directly."
+version = "1.0.0"
+id = "artifacts/profilio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19762
+
+[services.development]
+run = "pnpm --filter @workspace/profilio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/profilio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/profilio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19762"
+BASE_PATH = "/"

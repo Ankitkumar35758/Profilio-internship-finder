@@ -1,0 +1,19 @@
+kind = "design-system"
+previewPath = "/profilio-design-system/"
+title = "Profilio Design System"
+description = "A reusable visual language for Profilio's internship discovery experience, covering its warm editorial surfaces, forest-green navigation, student portfolio UI, and responsive product components."
+version = "1.0.0"
+id = "artifacts/profilio-design-system"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/profilio-design-system/" ]
+localPort = 24043
+
+[services.development]
+run = "pnpm --filter @workspace/profilio-design-system run dev"
+
+[services.env]
+PORT = "24043"
+BASE_PATH = "/profilio-design-system/"

@@ -1,0 +1,87 @@
+"Add the following three pages to the existing Profilio web platform:
+
+1. Settings Page
+When user clicks Settings in the sidebar show a settings page with these sections:
+
+Account Settings section:
+- Profile photo upload with change photo button
+- Full name editable input field
+- Email address editable input field
+- College name editable input field
+- Course and year editable input field
+- City editable input field
+- Save Changes button in dark green
+
+Privacy Settings section:
+- Profile visibility toggle — Public or Private
+- Show profile in company searches toggle
+- Allow companies to message me toggle
+- Show my view count to others toggle
+
+Notification Settings section:
+- Email me when a company views my profile toggle
+- Email me when I get a new match toggle
+- Email me when I receive a message toggle
+- Weekly profile performance summary toggle
+
+Account section:
+- Change password button outlined
+- Verify college email button outlined with verified badge if already verified
+- Delete account button in red outlined
+
+2. Support Page
+When user clicks Support in the sidebar show a support page with these sections:
+
+Help Center section:
+- Search bar with placeholder Search for help
+- Frequently asked questions as expandable accordion items:
+How do I make my profile visible to companies?
+How is my match score calculated?
+Can I upload multiple projects?
+How do I know if a company viewed my profile?
+How do I message a company?
+Can I change my field of interest after signing up?
+
+Contact Support section:
+- Subject dropdown with options: Technical Issue, Account Problem, Report a Bug, General Query
+- Message textarea
+- Submit button dark green
+
+Quick Links section:
+- Getting Started Guide link
+- How Match Score Works link
+- Tips to Improve Profile Visibility link
+- Community Guidelines link
+
+3. Analytics Page
+When user clicks Analytics in the sidebar show a full analytics dashboard with:
+
+Top stats row with 4 cards:
+- Total Profile Views this month with trend percentage vs last month
+- Search Appearances — how many times profile appeared in company searches
+- Average Time on Profile — average time recruiters spend viewing profile in minutes and seconds
+- Profile Score — overall profile strength percentage
+
+Profile Views Over Time section:
+- Line graph showing daily profile views over the last 30 days
+- Toggle between Last 7 days, Last 30 days, Last 3 months
+
+Project Performance section:
+- Bar chart showing views per project
+- Each bar labeled with project name
+- Most viewed project highlighted in dark green
+
+Company Activity section:
+- Table showing company name, date viewed, number of visits, which project they viewed most, action button View Profile
+- Sorted by most recent
+
+Match Score History section:
+- Line graph showing match score improving over time
+- Annotations showing what action caused score to improve like Added Figma project score jumped 5%
+
+Search Terms section:
+- Tags showing what skills companies searched for when they found this profile
+- Larger tags mean more searches
+- Example tags: UI UX, Figma, User Research, Prototyping
+
+All three pages should use the same dark green #1B4332 and warm cream #FBF9F5 color scheme, Plus Jakarta Sans for headings and Inter for body text, same sidebar navigation as rest of the platform."
