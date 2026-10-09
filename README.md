@@ -28,8 +28,8 @@ Profilio flips the model:
 - Node.js
 
 ## Designed & Built by
-Shriya Gaonkar — UI/UX Designer
-[LinkedIn](www.linkedin.com/in/shriya-g55) | [Figma Prototype](https://www.figma.com/proto/dOjIAObnUhnN8VVyXOF31U/internship-platform?node-id=17-403&t=nhJuAzVYYtM2S880-1)
+Ankit Kumar — Aspiring Cybersecurity Analyst
+[LinkedIn](https://www.linkedin.com/in/anshu-kumar-927160332/) | [GitHub](https://github.com/Ankitkumar35758)
 
 ## Run it locally
 Requires Node 20+ and [pnpm](https://pnpm.io/installation).
